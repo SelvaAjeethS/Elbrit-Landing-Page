@@ -1,0 +1,309 @@
+.hero-section {
+  background-color: #E2F5FB;
+  padding: 20px;
+  font-family: "Jost", sans-serif;
+}
+
+.hero-title h1 {
+  font-size: 100px;
+  color: #003569;
+  margin: 0;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.hero-info1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.hero-info1 p {
+  font-size: 18px;
+  color: #727272;
+}
+
+.hero-info1 h5 {
+  font-size: 25px;
+  color: #17414F;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+}
+
+.explore-btn {
+  background-color: #17414F;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: none;
+  padding: 6px 4px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 7px;
+}
+
+.hero-image img {
+  width: 300px;
+  height: auto;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.hero-info2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-wrapper {
+  background-color: #17414F;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-wrapper svg {
+  color: #fff;
+  font-size: 25px;
+}
+
+
+.hero-info2 h4 {
+  font-size: 17px;
+  color: #17414F;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+}
+
+.hero-info2 p {
+  font-size: 16px;
+  color: #727272;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.features {
+  background-color: #17414F;
+  color: #fff;
+  padding: 60px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: start;
+  position: relative;
+}
+
+.features div {
+  text-align: center;
+  position: relative;
+  flex: 1 1 30%;
+  max-width: 300px;
+}
+
+.features div:first-child,
+.features div:nth-child(2),
+.features div:nth-child(3) {
+  margin-top: -50px;
+}
+
+.feature-icon {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 10px;
+}
+
+
+.features h4 {
+  color: #FFFFFF;
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.features p {
+  color: #D9D9D9;
+  font-weight: 300;
+}
+
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 1000px) {
+
+  .features div:first-child,
+  .features div:nth-child(2),
+  .features div:nth-child(3) {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .hero-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  .hero-info1 {
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .hero-title h1 {
+    font-size: 60px;
+  }
+
+  .hero-info1 h5 {
+    font-size: 22px;
+  }
+
+  .hero-image img {
+    width: 250px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .hero-info2 {
+    align-items: center;
+    text-align: center;
+  }
+
+  .info-item {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .icon-wrapper {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon-wrapper svg {
+    font-size: 20px;
+  }
+
+  .hero-info2 h4 {
+    font-size: 16px;
+  }
+
+  .hero-info2 p {
+    font-size: 14px;
+  }
+
+  .features {
+    padding: 40px;
+    gap: 30px;
+  }
+
+  .features div {
+    flex: 1 1 45%;
+  }
+
+  .features div:first-child,
+  .features div:nth-child(2),
+  .features div:nth-child(3) {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .hero-section {
+    padding: 15px;
+  }
+
+  .hero-title h1 {
+    font-size: 40px;
+  }
+
+  .hero-info1 h5 {
+    font-size: 18px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .hero-image img {
+    width: 200px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .hero-info2 {
+    align-items: center;
+    text-align: center;
+  }
+
+  .info-item {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .icon-wrapper {
+    width: 35px;
+    height: 35px;
+  }
+
+  .icon-wrapper svg {
+    font-size: 18px;
+  }
+
+  .hero-info2 h4 {
+    font-size: 14px;
+  }
+
+  .hero-info2 p {
+    font-size: 13px;
+  }
+
+  .explore-btn {
+    font-size: 14px;
+    padding: 5px 3px;
+  }
+
+  .features {
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .features div {
+    flex: 1 1 100%;
+  }
+}
