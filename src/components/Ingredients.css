@@ -99,6 +99,9 @@
     font-weight: bold;
     color: #003569;
     text-decoration: underline;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 .ingredient-last-img {

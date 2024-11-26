@@ -59,9 +59,7 @@ const Ingredients = () => {
                 <h4 className="ingredient-title">{item.title}</h4>
                 <p className="ingredient-description">{item.description}</p>
               </div>
-              <a href="#" className="see-more">
-                See More
-              </a>
+              <button className="see-more">See More</button>
             </div>
           </div>
         ))}
